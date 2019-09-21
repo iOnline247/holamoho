@@ -5,10 +5,21 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Program",
+      "name": "Debug philosopher",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/target/debug/hello_world.exe",
+      "program": "${workspaceFolder}/philosopher/target/debug/philosopher.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true
+    },
+    {
+      "name": "Debug rng-game",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/rng-game/target/debug/hello_world.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
